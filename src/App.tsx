@@ -68,7 +68,7 @@ function App() {
         </header>
 
         {/* Social Link Buttons */}
-        <main className="w-full grid grid-cols-2 gap-3 max-w-md px-2 pb-10 mx-auto animate-fade-in-up">
+        <main className="w-full grid grid-cols-2 gap-3 max-w-md px-2 pb-6 mx-auto animate-fade-in-up">
           {socialLinks.map((link) => (
             <SocialLink
               key={link.platform}
@@ -80,7 +80,7 @@ function App() {
         </main>
 
         {/* Footer */}
-        <footer className="mt-6 text-center animate-fade-in relative z-10 mb-20">
+        <footer className="mt-6 text-center animate-fade-in relative z-10 mb-14">
           <p className="text-xs text-gray-400 font-medium opacity-80">
             &copy; 2025 Axivers. All rights reserved.
           </p>
