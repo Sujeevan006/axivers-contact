@@ -68,7 +68,7 @@ function App() {
         </header>
 
         {/* Social Link Buttons */}
-        <main className="w-full grid grid-cols-2 gap-3 max-w-md px-2 mx-auto animate-fade-in-up">
+        <main className="w-full grid grid-cols-2 gap-3 max-w-md px-2 pb-10 mx-auto animate-fade-in-up">
           {socialLinks.map((link) => (
             <SocialLink
               key={link.platform}
