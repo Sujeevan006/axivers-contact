@@ -46,7 +46,7 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-between px-4 py-20 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col justify-between top-0 px-4 py-20 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
       <BackgroundParticles />
 
       {/* Main Content Container - Centered */}
