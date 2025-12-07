@@ -52,7 +52,7 @@ function App() {
       {/* Main Content Container - Centered */}
       <div className="w-full max-w-sm mx-auto relative z-10 flex flex-col items-center justify-center">
         {/* Header */}
-        <header className="flex flex-col items-center mb-6 text-center animate-fade-in-down w-full">
+        <header className="flex flex-col items-center mb-12 text-center animate-fade-in-down w-full">
           {/* Logo & Name */}
           <div className="mb-2 flex items-center justify-center gap-3">
             <img src={logoNav} alt="Axivers Logo" className="h-10 w-auto" />
