@@ -46,13 +46,13 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-between px-4 py-28 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col justify-between px-4 py-20 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
       <BackgroundParticles />
 
       {/* Main Content Container - Centered */}
       <div className="grow flex flex-col items-center justify-center w-full max-w-sm mx-auto relative z-10">
         {/* Header */}
-        <header className="flex flex-col items-center mb-12 text-center animate-fade-in-down w-full">
+        <header className="flex flex-col items-center mb-10 text-center animate-fade-in-down w-full">
           {/* Logo & Name */}
           <div className="mb-2 flex items-center justify-center gap-4">
             <img src={logoNav} alt="Axivers Logo" className="h-10 w-auto" />
@@ -81,7 +81,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-12 text-center animate-fade-in relative z-10">
+      <footer className="mt-8 text-center animate-fade-in relative z-10">
         <p className="text-sm text-gray-400 font-medium">
           &copy; 2025 Axivers. All rights reserved.
         </p>
