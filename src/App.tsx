@@ -81,7 +81,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-12 text-center animate-fade-in relative z-10">
+      <footer className="mt-2 text-center animate-fade-in relative z-10">
         <p className="text-sm text-gray-400 font-medium">
           &copy; 2025 Axivers. All rights reserved.
         </p>
