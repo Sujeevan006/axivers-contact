@@ -46,17 +46,17 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-between top-0 px-4 py-20 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
+    <div className="h-screen flex flex-col items-center justify-center px-4 py-6 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
       <BackgroundParticles />
 
       {/* Main Content Container - Centered */}
-      <div className="grow flex flex-col items-center justify-center w-full max-w-sm mx-auto relative z-10">
+      <div className="w-full max-w-sm mx-auto relative z-10 flex flex-col items-center justify-center">
         {/* Header */}
-        <header className="flex flex-col items-center mb-10 text-center animate-fade-in-down w-full">
+        <header className="flex flex-col items-center mb-6 text-center animate-fade-in-down w-full">
           {/* Logo & Name */}
-          <div className="mb-2 flex items-center justify-center gap-4">
+          <div className="mb-2 flex items-center justify-center gap-3">
             <img src={logoNav} alt="Axivers Logo" className="h-10 w-auto" />
-            <h1 className="text-5xl font-display font-medium tracking-tight text-white pb-2">
+            <h1 className="text-4xl font-display font-medium tracking-tight text-white pb-1">
               axivers
             </h1>
           </div>
@@ -68,7 +68,7 @@ function App() {
         </header>
 
         {/* Social Link Buttons */}
-        <main className="w-full grid grid-cols-2 gap-4 max-w-md p-4 mx-auto animate-fade-in-up">
+        <main className="w-full grid grid-cols-2 gap-3 max-w-md px-2 mx-auto animate-fade-in-up">
           {socialLinks.map((link) => (
             <SocialLink
               key={link.platform}
@@ -78,14 +78,14 @@ function App() {
             />
           ))}
         </main>
-      </div>
 
-      {/* Footer */}
-      <footer className="mt-8 text-center animate-fade-in relative z-10">
-        <p className="text-sm text-gray-400 font-medium">
-          &copy; 2025 Axivers. All rights reserved.
-        </p>
-      </footer>
+        {/* Footer */}
+        <footer className="mt-6 text-center animate-fade-in relative z-10">
+          <p className="text-xs text-gray-400 font-medium opacity-80">
+            &copy; 2025 Axivers. All rights reserved.
+          </p>
+        </footer>
+      </div>
     </div>
   );
 }
