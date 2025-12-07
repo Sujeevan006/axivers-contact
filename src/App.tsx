@@ -56,7 +56,7 @@ function App() {
           {/* Logo & Name */}
           <div className="mb-2 flex items-center justify-center gap-3">
             <img src={logoNav} alt="Axivers Logo" className="h-10 w-auto" />
-            <h1 className="text-4xl font-display font-medium tracking-tight text-white pb-1">
+            <h1 className="text-4xl font-display font-semibold tracking-tight text-white pb-1">
               axivers
             </h1>
           </div>
