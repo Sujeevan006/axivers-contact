@@ -46,7 +46,7 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-between px-4 py-8 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col justify-between px-4 py-28 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
       <BackgroundParticles />
 
       {/* Main Content Container - Centered */}
@@ -81,7 +81,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-2 text-center animate-fade-in relative z-10">
+      <footer className="mt-12 text-center animate-fade-in relative z-10">
         <p className="text-sm text-gray-400 font-medium">
           &copy; 2025 Axivers. All rights reserved.
         </p>
