@@ -46,13 +46,13 @@ function App() {
   ];
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center px-4 py-6 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
+    <div className="h-screen flex flex-col items-center pt-12 pb-6 px-4 font-body selection:bg-orange-500/30 selection:text-orange-200 relative overflow-hidden">
       <BackgroundParticles />
 
-      {/* Main Content Container - Centered */}
-      <div className="w-full max-w-sm mx-auto relative z-10 flex flex-col items-center justify-center">
+      {/* Main Content Container - Full Height Layout */}
+      <div className="w-full max-w-sm mx-auto relative z-10 flex flex-col items-center justify-between h-full">
         {/* Header */}
-        <header className="flex flex-col items-center mb-12 text-center animate-fade-in-down w-full">
+        <header className="flex flex-col items-center text-center animate-fade-in-down w-full shrink-0">
           {/* Logo & Name */}
           <div className="mb-2 flex items-center justify-center gap-3">
             <img src={logoNav} alt="Axivers Logo" className="h-10 w-auto" />
@@ -68,7 +68,7 @@ function App() {
         </header>
 
         {/* Social Link Buttons */}
-        <main className="w-full grid grid-cols-2 gap-3 max-w-md px-2 pb-6 mx-auto animate-fade-in-up">
+        <main className="w-full grid grid-cols-2 gap-3 max-w-md px-2 mx-auto animate-fade-in-up flex-1 content-center">
           {socialLinks.map((link) => (
             <SocialLink
               key={link.platform}
@@ -80,7 +80,7 @@ function App() {
         </main>
 
         {/* Footer */}
-        <footer className="mt-6 text-center animate-fade-in relative z-10 mb-14">
+        <footer className="text-center animate-fade-in relative z-10 shrink-0">
           <p className="text-xs text-gray-400 font-medium opacity-80">
             &copy; 2025 Axivers. All rights reserved.
           </p>
